@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MAQUETTES WEB</title>
+    <title>MAQUETTES MOBILE</title>
     <link rel="stylesheet" href="Promote your new App!">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900
     ">
@@ -17,117 +17,80 @@
 
     <body>
         <!--header du site web-->
-        <section id="Header">
-            <div class="container">
+        <header style="background-image:url(./Images/header_bg.jpg);padding: 0;">
+            <div class="container-fluid">
                 <!--Mettre en place la barre de navigation-->
-                <div class="Headernav">
-                    <nav style="background-image:url(./Images/header_bg.jpg);padding: 0;" class="navbar navbar-expand-lg navbar-light bg-light">
+                <headernav class="row">
+                    <nav class="navbar navbar-expand-xl navbar-expand-sm navbar-expand-md navbar-expand-lg text-center ">
                         <div class="container-fluid">
-                            <div class="collapse navbar-collapse" id="navbarText" style="background-image: url(./Images/header_bg.jpg);">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a style="color: #FFFFFF;padding-left: 13vh; padding-top: 2vh;" class="nav-link active" aria-current="page" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a style="color: #FFFFFF;padding-left: 13vh;padding-top: 2vh;" class="nav-link" href="#">Features</a>
-                                    </li>
-                                    <a style="padding-left: 35vh;padding-right:20vh; padding-top: 2vh;padding-bottom: 2vh;" class="navbar-brand" href="#"><img id="Menu" src="./Images/SAYNA_Horizontal_-_Blanc.png" alt="SAYNA" width="220px" height="38px" style="border: 0px;"></a>
-                                    <li class="nav-item">
-                                        <a style="color: rgb(14, 128, 103);text-decoration-line: underline;padding-top: 2vh;" class="nav-link" href="#Get it Now">Get it Now</a>
-                                    </li>
-                                </ul>
-                            </div>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a style="color: #FFFFFF;padding-left: 15vh; padding-top: 4vh;text-decoration: none;" class="d-none d-md-block" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a style="color: #FFFFFF;padding-left: 15vh;padding-top: 4vh;text-decoration: none;" class="d-none d-md-block" href="#">Features</a>
+                                </li>
+                                <a style="padding-left: 30vh;padding-right:22vh; padding-top: 2vh;padding-bottom: 2vh;" class="d-block d-lg-block text-center" href="#"><img id="Menu" src="./Images/SAYNA_Horizontal_-_Blanc.png" alt="SAYNA" width="200px" height="38px" style="border: 0px;"></a>
+                                <li class="nav-item">
+                                    <a style="color: rgb(14, 128, 103);text-decoration-line: underline;padding-top: 2vh;" class="d-none d-md-block" href="#Get it Now">Get it Now</a>
+                                </li>
+                            </ul>
                         </div>
                     </nav>
-                </div>
-                <!--Premier section de la page-->
-                <div class="Headerbottom">
-                    <h1 style="color: #FFFFFF;text-align: center;margin-top: 60px;">Promote your <strong>New App !</strong></h1>
-                    <h2 style="color:rgb(14, 128, 103) ;text-align: center;" id="Title"><small><small>NEW SOFTWARE IN THE APP STORE</small></small>
-                    </h2>
-                    <p style="color: #FFFFFF;text-align: center;">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum
-                        <br> id ligula porta felis euismod semper.</p>
-                    <br>
-                    <button style="border-radius: 20px ;margin-left: 62vh;padding-bottom: 2vh;width: 25%;background-color:rgb(14, 128, 103) ;color: #FFFFFF;" type="button" class="btn btn-info">Buy now</button>
-                    <br>
-                    <img style="padding-top:4vh;margin-left: 28vh;max-width: 100%;height: auto;" src="./Images/image_600px_1.png" class="img-fluid" id="ordinateur">
-                </div>
+                    <hr style="color: grey;">
+                </headernav>
             </div>
-        </section>
+
+            <!--Premier section de la page-->
+            <div class="container-fluid text-center">
+                <h1 style="color: #FFFFFF;text-align: center;margin-top: 60px;">Promote your <strong>New App !</strong></h1>
+                <h2 style="color:rgb(14, 128, 103) ;text-align: center;" id="Title"><small><small>NEW SOFTWARE IN THE APP STORE</small></small>
+                </h2>
+                <p style="color: #FFFFFF;text-align: center;">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum
+                    <br> id ligula porta felis euismod semper.</p>
+                <br>
+                <section>
+                    <button style="border-radius: 20px;padding-bottom: 2vh;width: 25%;background-color:rgb(14, 128, 103) ;color: #FFFFFF;" type="button" class="btn btn-info">Buy now</button>
+                </section>
+                <br>
+                <section>
+                    <img style="padding-top:4vh;max-width: 100%;height: auto;" src="./Images/image_600px_1.png" class="img-fluid" id="ordinateur">
+                </section>
+            </div>
+            </div>
+        </header>
         <main>
             <!--Section Média -->
-            <section style="background-color: rgb(243, 239, 239);" id="Medias">
-                <div class="container">
-                    <div style="margin: 10vh;" class="col-row">
-                        <div class="col-icône">
-                            <figure>
-                                <img src="./Images/social_icon1.png" alt="Icône 1">
-                            </figure>
-                        </div>
-
-                        <div class="col-icône">
-                            <figure>
-                                <img src="./Images/social_icon2.png" alt="Icône 2">
-                            </figure>
-                        </div>
-
-                        <div class="col-icône">
-                            <figure>
-                                <img src="./Images/social_icon3.png" alt="Icône 3">
-                            </figure>
-                        </div>
-
-                        <div class="col-icône">
-                            <figure>
-                                <img src="./Images/social_icon4.png" alt="Icône 4">
-                            </figure>
-                        </div>
-
-                        <div class="col-icône">
-                            <figure>
-                                <img src="./Images/social_icon5.png" alt="Icône 5">
-                            </figure>
-                        </div>
-
-                        <div class="col-icône">
-                            <figure>
-                                <img src="./Images/social_icon6.png" alt="Icône 6">
-                            </figure>
-                        </div>
-
-                        <div class="col-icône">
-                            <figure>
-                                <img src="./Images/social_icon7.png" alt="Icône 7">
-                            </figure>
-                        </div>
-                        <div class="col-icône">
-                            <figure>
-                                <img src="./Images/social_icon8.png" alt="Icône 7">
-                            </figure>
-                        </div>
-                    </div>
-                    <h3><small>SOCIAL MEDIA OPTION</small></h3>
+            <div class="container-fluid text-center">
+                <div style="padding-left: 4vh;padding-top: 4vh;padding-bottom: 4vh;" class="form bg-light">
+                    <img src="./Images/social_icon1.png" alt="Icône 1">
+                    <img src="./Images/social_icon2.png" alt="Icône 2">
+                    <img src="./Images/social_icon3.png" alt="Icône 3">
+                    <img src="./Images/social_icon4.png" alt="Icône 4">
+                    <img src="./Images/social_icon5.png" alt="Icône 5">
+                    <img src="./Images/social_icon6.png" alt="Icône 6">
+                    <img src="./Images/social_icon7.png" alt="Icône 7">
                 </div>
-            </section>
+            </div>
             <!--Section Check our new App -->
-            <section id="CheckourNewApp">
-                <div class="container">
-                    <div class="container">
-                        <h2 style="padding-bottom: 4vh;" id="Black">Check Our <strong>New App .</strong></h2>
-                        <p style="text-align: center;padding-bottom: 4vh;color: grey;">Aenean lacinia bibendum nulla sed consectetur. Donec sed
-                            <br> odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-                    </div>
+            <div class="container-fluid text-center">
+                <div style="padding-top:4vh;padding-bottom: 4vh;" class="container">
+                    <h2 id="Black"><span style="color: grey;">Check Our </span><strong>New App .</strong></h2>
+                    <p style="text-align: center;padding-bottom: 4vh;color: grey;">Aenean lacinia bibendum nulla sed consectetur. Donec sed
+                        <br> odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                 </div>
-            </section>
+            </div>
+
             <!--Section Awesonness -->
             <section style="background-image:  url(./Images/map_bg.png);" id="Awesomeness">
-                <div class="container">
-                    <div class="row">
-                        <div class="col order-last">
+                <div class="container-fluid">
+                    <div class="row text-center">
+                        <div class="col-sm-4 col-md-4">
                             <figure>
                                 <p style="color: black;"></p><img src="./Images/icon_28px_1.png" alt="A1"><strong>Awesomeness</strong></p>
                                 <p style="color:grey;">Aenean lacinia bibendum nulla sed consectetur.</p>
                             </figure>
+
                             <figure>
                                 <p style="color: black;"><img src="./Images/icon_28px_2.png" alt="A2"><strong>Pro Concept</strong></p>
                                 <p style="color:grey;">Aenean lacinia bibendum nulla sed consectetur.</p>
@@ -138,13 +101,10 @@
                             </figure>
                             </article>
                         </div>
-                        <div class="col">
-                            <figure>
-                                <img style="width: 190px;padding-left: 2vh;text-align: center;padding-left: 4vh;" src="./Images/iphone.png" alt="Phone">
-
-                            </figure>
+                        <div class="col-sm-4 col-md-4">
+                            <img style="width: 190px;padding-left: 2vh;text-align: center;padding-left: 4vh;" src="./Images/iphone.png" alt="Phone">
                         </div>
-                        <div class="col order-first">
+                        <div class="col-sm-4 col-md-4">
                             <figure>
                                 <p style="color: black;"></p><img src="./Images/icon_28px_4.png" alt="A4"><strong>Skills</strong></p>
                                 <p style="color:grey;">Aenean lacinia bibendum nulla sed consectetur.</p>
@@ -160,21 +120,22 @@
                         </div>
                     </div>
                 </div>
-
             </section>
 
             <!--Section Avatar -->
             <section style="background-image:url(./Images/seperator1-.jpg) ;" id="Avatar">
-                <figure id="Rond">
-                    <img src="./Images/avatar_91px_1.png" alt="Rond">
-                </figure>
-                <p style="color: #FFFFFF;text-align: center;">Nullam quis risus eget urna mollis ornare vel eu leo. <br> Nullam id dolor id nibh ultricies.</p>
-                <h3 style="text-align: center;">- JOHN DO</h3>
+                <div style="padding-top: 4vh;padding-bottom: 4vh;" class="container-fluid text-center">
+                    <figure id="Rond">
+                        <img src="./Images/avatar_91px_1.png" alt="Rond">
+                    </figure>
+                    <p style="color: #FFFFFF;text-align: center;">Nullam quis risus eget urna mollis ornare vel eu leo. <br> Nullam id dolor id nibh ultricies.</p>
+                    <h3 style="color:rgb(14, 128, 103);">- JOHN DO</h3>
+                </div>
             </section>
             <!--Section Screenshot -->
             <section id="Screenshots">
-                <div style="text-align: center;" class="container">
-                    <h2>The best <strong>Screenshots .</strong></h2>
+                <div style="text-align: center;padding-top: 4vh;padding-bottom: 4vh;" class="container-fluid text-center">
+                    <h2> <span style="color: grey;">The best </span> <strong>Screenshot</strong></h2>
                     <div style="padding-bottom: 4vh;" class="row">
                         <div class="col order-last">
                             <figure>
@@ -201,15 +162,14 @@
 
             <!--Section Litmus Tested -->
             <section id="Litmus Tested">
-                <div class="container">
+                <div style="padding-top: 4vh;padding-bottom: 4vh;" class="container-fluid">
                     <div class="row">
-                        <div class="col order-last"></div>
                         <div class="col">
-                            <h2>Litmus <strong>Tested .</strong></h2>
+                            <h2> <span style="color: grey;"> Litmus </span><strong>Tested .</strong></h2>
                             <p style="color:grey;">Aenean lacinia bibendum nulla sed <br> consectetur. Donec sed odio dui. Lorem <br> ipsum dolor sit amet, consectetur <br> adipiscing elit. Aenean eu leo quam.
                             </p>
 
-                            <button style="border-radius: 20px;width: 50%;background-color:rgb(14, 128, 103) ;color: #FFFFFF;" type="button" class="btn btn-info">See it here</button>
+                            <button style="border-radius: 20px;width: 35%;background-color:rgb(14, 128, 103) ;color: #FFFFFF;" type="button" class="btn btn-info">See it here</button>
                         </div>
                         <div class="col order-first">
                             <figure>
@@ -219,17 +179,16 @@
                     </div>
                 </div>
                 <!--Section 100% REsponsive -->
-                <section style="padding-bottom: 8vh;" id="100% Responsive">
-                    <div class="container">
+                <section id="100% Responsive">
+                    <div style="padding-top: 4vh;padding-bottom: 4vh;" class="container-fluid">
                         <div class="row">
-                            <div class="col order-last"></div>
                             <div class="col">
-                                <h2>100% <strong> Responsive .</strong></h2>
+                                <h2><span style="color: grey;">100% </span> <strong> Responsive .</strong></h2>
                                 <p style="color:grey;">Donec sed odio dui. Donec id elit non <br> mi porta gravida at eget metus. <br> Vestibulum id ligula porta felis euismod <br> semper. Integer posuere erat a ante <br>venenatis dapibus posuere velit aliquet. <br> Cras mattis
                                     consectetur purus sit amet <br>fermentum. Nullam quis risus eget urna <br>mollis ornare vel eu leo. Maecenas <br>faucibus mollis interdum.
                                 </p>
                                 <br>
-                                <button style="border-radius: 20px;width: 50%;background-color:rgb(14, 128, 103) ;color: #FFFFFF;" type="button" class="btn btn-info">Visit Website</button>
+                                <button style="border-radius: 20px;width: 45%;background-color:rgb(14, 128, 103) ;color: #FFFFFF;" type="button" class="btn btn-info">Visit Website</button>
                                 <br>
                             </div>
                             <div class="col order-first">
@@ -247,68 +206,61 @@
         <footer>
             <!--Footer top  -->
             <section style="background-color: rgb(243, 239, 239);" id="footer">
-                <div class="container">
-                    <div style="padding-top: 4vh;" class="row">
-                        <div class="col order-last">
-                            <h3 style="color: black;padding-bottom: 2vh;text-align: left;">CONTACT</h3>
-                            <p style="color:grey;">SAYNA SARL <br> Business Center 2ème étage à gauche <br> Tanjombato 101 Antananarivo NIF: 5 0 <br> 997 537 Stat:85497 11 2018 010389 <br> Madagascar </p>
+                <div style="padding-top: 4vh; padding-bottom: 4vh;" class="container-fluid text-center d-block d-md-block" ">
+                    <div class="row ">
+                        <div class="col order-last ">
+                            <h3 style="color: black;padding-bottom: 2vh; ">CONTACT</h3>
+                            <p style="color:grey; ">SAYNA SARL <br> Business Center 2ème étage à gauche <br> Tanjombato 101 Antananarivo NIF: 5 0 <br> 997 537 Stat:85497 11 2018 010389 <br> Madagascar </p>
                         </div>
-                        <div class="col">
-                            <h3 style="color: black;padding-bottom: 2vh;">INFO</h3>
-                            <p style="text-align: center;color: grey;">Website <br> Features <br> Appstore <br> Unsubscribe</p>
+                        <div class="col ">
+                            <h3 style="color: black;padding-bottom: 2vh; ">INFO</h3>
+                            <p style="text-align: center;color: grey; ">Website <br> Features <br> Appstore <br> Unsubscribe</p>
                         </div>
-                        <div class="col order-first">
+                        <div class="col order-first ">
                             <figure>
-                                <img src="./Images/SAYNA_Horizontal_-_Noir.png" alt="SAYNA" width="250px" height="40px" style="border: 0px;">
+                                <img src="./Images/SAYNA_Horizontal_-_Noir.png " alt="SAYNA " width="250px " height="40px " style="border: 0px; ">
                             </figure>
-                            <p style="color:grey;">Donec sed odio dui. Donec id elit non mi <br> porta gravida at eget metus. Vestibulum id <br> ligula porta felis euismod semper. Nullam <br> quis risus eget urna.</p>
-
+                            <p style="color:grey; ">Donec sed odio dui. Donec id elit non mi <br> porta gravida at eget metus. Vestibulum id <br> ligula porta felis euismod semper. Nullam <br> quis risus eget urna.</p>
                         </div>
-                    </div>
-                </div>
-                <!--Footer bottom  -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col order-last">
-                            <ul style="list-style: none;display: flex;text-align: center; margin-left: 10vh;">
-                                <li>
-                                    <figure>
-                                        <img src="./Images/social_icon_19px_1.png" alt="Footer 1">
-                                    </figure>
-                                </li>
-
-                                <li>
-                                    <figure>
-                                        <img src="./Images/social_icon_19px_2.png" alt="Footer 2">
-                                    </figure>
-                                </li>
-
-                                <li>
-                                    <figure>
-                                        <img src="./Images/social_icon_19px_3.png" alt="Footer3">
-                                    </figure>
-                                </li>
-
-                                <li>
-                                    <figure>
-                                        <img src="./Images/social_icon_19px_4.png" alt="Footer 4">
-                                    </figure>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <p style="text-align: center;color: grey;">&#169 Copyright Sayna 2016 . All Rights REserved</p>
-                        </div>
-                        <div class="col order-first"></div>
                     </div>
                 </div>
             </section>
+            <!--Footer bottom  -->
+            <div class="container-fluid d-block d-md-block text-center ">
+                <div class="row ">
+                    <div class="col order-last d-block d-md-block text-center ">
+                        <ul style="list-style: none;display: flex;text-align: center; ">
+                            <li>
+                                <figure>
+                                    <img src="./Images/social_icon_19px_1.png " alt="Footer 1 ">
+                                </figure>
+                            </li>
+
+                            <li>
+                                <figure>
+                                    <img src="./Images/social_icon_19px_2.png " alt="Footer 2 ">
+                                </figure>
+                            </li>
+
+                            <li>
+                                <figure>
+                                    <img src="./Images/social_icon_19px_3.png " alt="Footer3 ">
+                                </figure>
+                            </li>
+
+                            <li>
+                                <figure>
+                                    <img src="./Images/social_icon_19px_4.png " alt="Footer 4 ">
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col d-block d-md-block text-center ">
+                        <p style="color: grey; ">&#169 Copyright Sayna 2016 . All Rights REserved</p>
+                    </div>
+                </div>
+            </div>
         </footer>
-
-
-
-
     </body>
-    </section>
-
+</section>
 </html>
